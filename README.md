@@ -1,4 +1,4 @@
-**Nom :** Kyllian LE BRETON - Nolan TAUVEL - Maxime BROCHARD
+**Membres :** Kyllian LE BRETON - Nolan TAUVEL - Maxime BROCHARD
 
 **Groupe :** 3
 
