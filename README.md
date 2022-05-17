@@ -26,4 +26,5 @@ docker build -t nom-image .
 docker run -d -p 25000:80 nom-image
 ```
 
-Ouvrez un navigateur et tapez ```localhost:8080```
+
+* Ouvrez un navigateur et tapez ```localhost:8080```
