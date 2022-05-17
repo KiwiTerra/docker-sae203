@@ -1,11 +1,11 @@
 **Nom :** Kyllian LE BRETON
+          Nolan TAUVEL
+          Maxime BROCHARD
 
-**Groupe :** B2
+**Groupe :** 3
 
 **Année :** 2021-2022
 
-**IUT Le Havre - Cours GIT**
+**IUT Le Havre - Projet Réseaux**
 
-### Compte-rendu TP1 Introduction GIT
-
-Dans ce TP on apprend à travailler avec git.
+### Compte-rendu SAE 2.03
