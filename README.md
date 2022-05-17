@@ -15,3 +15,15 @@ docker --version
  ```shell
 git clone git@github.com/KiwiTerra/docker-sae203.git
 ```
+
+- Construisez l'image décrite dans dockerfile avec docker build : 
+```shell
+docker build -t nom-image .
+```
+
+- Lancez le serveur web :
+```shell
+docker run -d -p 25000:80 nom-image
+```
+
+Ouvrez un navigateur et tapez ```localhost:8080```
