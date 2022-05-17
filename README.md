@@ -27,4 +27,4 @@ docker run -d -p 25000:80 nom-image
 ```
 
 ### Lancement dans votre navigateur
-!Ouvrez un navigateur et tapez comme url :  ```localhost:8080```
+1. Ouvrez un navigateur et tapez comme url :  ```localhost:8080```
