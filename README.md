@@ -1,6 +1,4 @@
-**Nom :** Kyllian LE BRETON
-          Nolan TAUVEL
-          Maxime BROCHARD
+**Nom :** Kyllian LE BRETON - Nolan TAUVEL - Maxime BROCHARD
 
 **Groupe :** 3
 
