@@ -2,8 +2,7 @@
 
 ## Notre projet :
 
-Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
-
+Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande. <br/>
 **dockerfile + github** pour lancer un serveur web basé sur l'image ```httpd```
 
 ## Comment lancer l'application ?
