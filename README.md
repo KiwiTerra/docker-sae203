@@ -6,12 +6,12 @@
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
 
 ## Comment lancer l'application ?
-- Vérifier si docker est installé :
+- Vérifiez si docker est installé :
 ```shell
 docker --version
 ```
 
-- Cloner le référentiel :
+- Clonez le référentiel :
  ```shell
 git clone git@github.com/KiwiTerra/docker-sae203.git
 ```
