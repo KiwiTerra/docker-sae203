@@ -3,11 +3,15 @@
 ## Notre projet :
 
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande. <br/>
-**dockerfile + github** pour lancer un serveur web basé sur l'image ```httpd```
+**dockerfile + github** pour lancer un serveur web basé sur l'image ```httpd```.
 
 ## Comment lancer l'application ?
-- Vérifier si docker est installé
+- Vérifier si docker est installé :
 ```shell
 docker --version
 ```
 
+- Cloner le référentiel :
+ ```shell
+git clone git@github.com/KiwiTerra/docker-sae203.git
+```
