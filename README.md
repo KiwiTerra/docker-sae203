@@ -21,17 +21,24 @@ Nous souhaitions initialement utiliser l'application Jellyfin pour gérer cette 
 Dans un premier temps, nous avons donc choisi l'application Jellyfin. Pour cela, nous avons commencé par installer l'image ["Jellyfin"](https://jellyfin.org) sur notre machine.
 Nous transférerons ensuite l'image sur notre docker pour son utilisation.
 
+![alt text](https://jellyfin.org/images/banner-dark.svg)
+
+Source: https://prograide.com/pregunta/2181/comment-ajouter-des-images-au-fichier-readmemd-sur-github
 ### 2. Endy
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 
 ### 3. Création de notre propre image
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+À la suite de l'échec de l'utilisation de l'image Endy, nous nous sommes décidé à créer nous même notre propre image pour faire un lecteur de vidéo à la demande. Celui-ci nous donne plus de libertés quant à son aspect et utilisation. 
+
 
 #### 3.1. Création d'une interface
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Pour commencer nous avons choisi de créer un site web en ```HTML5``` contenant du css et du javascript. Nous avons vérifié tout notre code sur le Service [W3C Validator](https://validator.w3.org) afin de respecter les normes HTML et CSS.
+
+La partie interface client est entièrement gérée par le code HTML et CSS et pour le lecteur nous avons utilisé la librairie [](). Le code JavaScript nous permet de créer un serveur web (NodeJS + Fastify) pour gérer les différentes pages ainsi que de faire une connexion vérifiée avec un mot de passe. 
 
 #### 3.2. Création du lecteur vidéo
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
 
 
 
