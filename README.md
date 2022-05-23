@@ -22,7 +22,7 @@ Nous avons pour ce projet découvert la possbilité de crée des pages web GitHu
 
 Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons allimenté à l'aide du ReadMe.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages).
 
-![alt text](https://miro.medium.com/max/1400/1*UBPbXxCACLSygvXutPPGSA.jpeg)
+![alt text](https://zupimages.net/up/22/21/ebpi.png)
 
 ## Notre projet :
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
