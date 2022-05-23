@@ -13,9 +13,15 @@ Dockerfile est l'outil donné par Docker permettant de créer et modifier des im
 <br/> Ici, nous reprenons l'image httpd afin de faire hériter notre image de vidéo à la demande de celle-ci et exécuter notre application
 sous forme de site web.
 
-## Présentation Pages GitHub
+![alt text](http://www.telecom-valley.fr/wp-content/uploads/2016/02/Docker_container_engine_logo.png)
 
-### Création d'une 
+## Présentation pages GitHub
+
+### Création d'une page web GitHub
+Nous avons pour ce projet découvert la possbilité de crée des pages web GitHub, pour ce faire nous avons suivie à la lettre les instructions du [TP-5](https://juanluck.github.io/Introduction-GIT/tp5/)
+
+Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons allimenté à l'aide du ReadMe.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages)
+
 
 ## Notre projet :
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
