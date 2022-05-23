@@ -18,17 +18,21 @@ Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
 Nous souhaitions initialement utiliser l'application Jellyfin pour gérer cette plateforme, cependant, tous les autres groupes ayant utilisé cette même plateforme, nous avons décidé de créer nous même cette apllication.
 
 ### 1. Jellyfin
-Dans un premier temps, nous avons donc choisi l'application Jellyfin. Pour cela, nous avons commencé par installer l'image ["Jellyfin"](https://jellyfin.org) sur notre machine.
-Nous transférerons ensuite l'image sur notre docker pour son utilisation.
+Dans un premier temps, nous avons donc choisi l'application [Jellyfin](https://jellyfin.org). 
+Pour cela, nous avons commencé par créer notre fichier DockerFile: à partir d'une image debian et installer le logiciel avec les commandes apt. Puis nous avons exposé le port de Jellyfin. 
+Au lancement, de l'image, nous devons aussi attribuer un port au conteneur pour y accéder ainsi qu'un volume pour garder les configurations du logiciel.
 
 ![alt text](https://jellyfin.org/images/banner-dark.svg)
 
-Source: https://prograide.com/pregunta/2181/comment-ajouter-des-images-au-fichier-readmemd-sur-github
-### 2. Endy
+### 2. Emby
+Après que tout le monde se soit décidé à utiliser Jellyfin, nous avons décidé de changer, ayant déjà réussi à exécuter notre docker et vu que nous avions encore beaucoup de temps. Nous nous sommes donc tourné vers le logiciel [Emby](https://emby.media), un autre lecteur vidéo similaire à Jellyfin et pas encore utilisé par les autres groupes.
 
+Malheureusement après de nombreux test, nous n'avons pas réussi à accèder au lecteur vidéo, et avons donc décidé d'abandonner l'utilisation de ce logiciel.
+
+![alt text](https://emby.media/resources/logowhite_1881.png)
 
 ### 3. Création de notre propre image
-À la suite de l'échec de l'utilisation de l'image Endy, nous nous sommes décidé à créer nous même notre propre image pour faire un lecteur de vidéo à la demande. Celui-ci nous donne plus de libertés quant à son aspect et utilisation. 
+À la suite de l'échec de l'utilisation de l'image Emby, nous nous sommes décidé à créer nous même notre propre image pour faire un lecteur de vidéo à la demande. Celui-ci nous donne plus de libertés quant à son aspect et utilisation. 
 
 
 #### 3.1. Création d'une interface
