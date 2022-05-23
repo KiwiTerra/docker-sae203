@@ -20,8 +20,9 @@ sous forme de site web.
 ### Création d'une page web GitHub
 Nous avons pour ce projet découvert la possbilité de crée des pages web GitHub, pour ce faire nous avons suivie à la lettre les instructions du [TP-5](https://juanluck.github.io/Introduction-GIT/tp5/)
 
-Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons allimenté à l'aide du ReadMe.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages)
+Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons allimenté à l'aide du ReadMe.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages).
 
+![alt text](https://miro.medium.com/max/1400/1*UBPbXxCACLSygvXutPPGSA.jpeg)
 
 ## Notre projet :
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
