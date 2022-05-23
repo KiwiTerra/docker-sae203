@@ -52,7 +52,7 @@ Pour commencer nous avons choisi de créer un site web en ```HTML5``` contenant 
 
 La partie interface client est entièrement gérée par le code HTML et CSS et pour le lecteur nous avons utilisé la librairie [Video Js](https://videojs.com). Le code JavaScript nous permet de créer un serveur web (NodeJS + Fastify) pour gérer les différentes pages ainsi que de faire une connexion vérifiée avec un mot de passe. 
 
-![W3C Validator](https://www.pngfind.com/pngs/m/342-3426331_w3c-markup-validator-w3c-html5-validation-icon-hd.png)
+![W3C Validator](https://zupimages.net/up/22/21/ecw4.png)
 
 #### 3.2. Création du lecteur vidéo
 Comme dit précédemment, nous avons utilisé une librairie afin de faire fonctionner le lecteur vidéo, la librairie Video Js.
