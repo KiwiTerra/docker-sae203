@@ -13,42 +13,30 @@ Dockerfile est l'outil donné par Docker permettant de créer et modifier des im
 <br/> Ici, nous reprenons l'image httpd afin de faire hériter notre image de vidéo à la demande de celle-ci et exécuter notre application
 sous forme de site web.
 
-## Présentation des ```gf-pages```
-
-
 ## Notre projet :
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
-Nous souhaitions initialement utiliser l'application Jellify pour gérer cette plateforme, cependant, tout les autres groupes ayant utilisé cette même plateforme, nous avons décidé de crée nous même cette même apllication.
+Nous souhaitions initialement utiliser l'application Jellyfin pour gérer cette plateforme, cependant, tous les autres groupes ayant utilisé cette même plateforme, nous avons décidé de créer nous même cette apllication.
+
+### 1. Jellyfin
+Dans un premier temps, nous avons donc choisi l'application Jellyfin. Pour cela, nous avons commencé par installer l'image ["Jellyfin"](https://jellyfin.org) sur notre machine.
+Nous transférerons ensuite l'image sur notre docker pour son utilisation.
+
+### 2. Endy
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### 3. Création de notre propre image
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+
+#### 3.1. Création d'une interface
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+#### 3.2. Création du lecteur vidéo
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 
-
-
-## Comment lancer l'application ?
-- Vérifiez si docker est installé :
-```shell
-docker --version
-```
-
-- Clonez le référentiel :
- ```shell
-git clone git@github.com/KiwiTerra/docker-sae203.git
-```
-
-- Construisez l'image décrite dans dockerfile avec docker build : 
-```shell
-docker build -t nom-image .
-```
-
-- Lancez le serveur web :
-```shell
-docker run -d -p 25000:80 nom-image
-```
-
-### Lancement dans votre navigateur
--> Ouvrez un navigateur et tapez comme url :  ```localhost:25000```
 
 ## Auteurs
 
 - [@KiwiTerra](https://www.github.com/Kiwiterra)
 - [@Eldaon](https://www.github.com/Eldaon)
-- [@KiwiTerra](https://github.com/MaximeBro)
+- [@MaximeBro](https://github.com/MaximeBro)
