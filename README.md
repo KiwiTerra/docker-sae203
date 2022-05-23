@@ -59,7 +59,7 @@ Comme dit précédemment, nous avons utilisé une librairie afin de faire foncti
 
 ![VideoJS](https://zupimages.net/up/22/21/dnjc.png)
 
-### 3.3. Finalisation du site
+#### 3.3. Finalisation du site
 Nous avons pour finir changer plein de petit détail, effectué des test, nous avons vu que nous ne pouvions pas lire autre chose que des fichiers .mp4 dans notre lecteur, que dès qu'on passe en résolution 4k, le lecteur subissait des bugs. 
 <br/> Nous n'avons pas sû régler ces soucis, et avant privillégier ceux-ci nous avons préféré améliorer d'autre aspect du logiciel plutôt que de travailler sur la réparration de ces freezes. 
 
