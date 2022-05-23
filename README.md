@@ -13,7 +13,7 @@ Dockerfile est l'outil donné par Docker permettant de créer et modifier des im
 <br/> Ici, nous reprenons l'image httpd afin de faire hériter notre image de vidéo à la demande de celle-ci et exécuter notre application
 sous forme de site web.
 
-![alt text](http://www.telecom-valley.fr/wp-content/uploads/2016/02/Docker_container_engine_logo.png)
+![Docker](http://www.telecom-valley.fr/wp-content/uploads/2016/02/Docker_container_engine_logo.png)
 
 ## Présentation pages GitHub
 
@@ -22,7 +22,7 @@ Nous avons pour ce projet découvert la possbilité de crée des pages web GitHu
 
 Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons allimenté à l'aide du ReadMe.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages).
 
-![alt text](https://zupimages.net/up/22/21/ebpi.png)
+![GitHub Pages](https://zupimages.net/up/22/21/ebpi.png)
 
 ## Notre projet :
 Nous avons choisi comme sujet la plateforme numérique de vidéo à la demande.
@@ -33,7 +33,7 @@ Dans un premier temps, nous avons donc choisi l'application [Jellyfin](https://j
 <br/> Pour cela, nous avons commencé par créer notre fichier DockerFile: à partir d'une image debian et installer le logiciel avec les commandes apt. Puis nous avons exposé le port de Jellyfin. 
 <br/> Au lancement, de l'image, nous devons aussi attribuer un port au conteneur pour y accéder ainsi qu'un volume pour garder les configurations du logiciel.
 
-![alt text](https://image.roku.com/developer_channels/prod/9a35cad8a8798b81c057a54a8b0641ae624cd202c5584b45e7f1c396aad756ca.png)
+![Jellyfin](https://zupimages.net/up/22/21/bmxg.png)
 
 ### 2. Emby
 <br/> Après que tout le monde se soit décidé à utiliser Jellyfin, nous avons décidé de changer, ayant déjà réussi à exécuter notre docker et vu que nous avions encore beaucoup de temps. 
@@ -41,7 +41,7 @@ Dans un premier temps, nous avons donc choisi l'application [Jellyfin](https://j
 <br/>
 <br/> Malheureusement après de nombreux test, nous n'avons pas réussi à accèder au lecteur vidéo, et avons donc décidé d'abandonner l'utilisation de ce logiciel.
 
-![alt text](https://play-lh.googleusercontent.com/aii2NmEiUXKX1Jb2zVy7mB_uIawNZqGZS1NQAiDn0d4t-aKgYsJSbV6hOGIjOgRWRNQ)
+![Emby](https://zupimages.net/up/22/21/1npt.png)
 
 ### 3. Création de notre propre image
 À la suite de l'échec de l'utilisation de l'image Emby, nous nous sommes décidé à créer nous même notre propre image pour faire un lecteur de vidéo à la demande. Celui-ci nous donne plus de libertés quant à son aspect et utilisation. 
