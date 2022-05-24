@@ -24,8 +24,8 @@ docker build -t nom-image .
 
 - Lancez le serveur web :
 ```shell
-# Windows
-docker run -d -p [Port]:80 --env-file .env -v C:\Users\Nolan\Desktop\Docker\data:/root/videoplayer/data/ nom-image
+# Windows (Remplacer .... par votre dossier)
+docker run -d -p [Port]:80 --env-file .env -v C:\....\data:/root/videoplayer/data/ nom-image
 # Linux
 docker run -d -p [Port]:80 --env-file .env -v ./data:/root/videoplayer/data/ nom-image
 ```
