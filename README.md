@@ -3,7 +3,7 @@
 ## Lancement lecteur vidéo personnel
 Vous trouverez ici le référentiel de l'application, à mettre dans un docker.
 
-## Comment mettre l'application sur le docker, et lancer le serveur ?
+## Comment mettre l'application sur le docker, et lancer le serveur  ?
 
 - Vérifiez si docker est installé :
 ```shell
@@ -29,5 +29,3 @@ docker run -d -p [Port]:80 nom-image
 
 ## Lancement dans votre navigateur
 -> Ouvrez un navigateur et tapez comme url :  ```localhost:[Port]```
-
-###
