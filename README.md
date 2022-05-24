@@ -24,8 +24,11 @@ docker build -t nom-image .
 
 - Lancez le serveur web :
 ```shell
-docker run -d -p [Port]:80 nom-image
+# Windows
+docker run -d -p [Port]:80 --env-file .env -v C:\Users\Nolan\Desktop\Docker\data:/root/videoplayer/data/ nom-image
+# Linux
+docker run -d -p [Port]:80 --env-file .env -v ./data:/root/videoplayer/data/ nom-image
 ```
 
 ## Lancement dans votre navigateur
--> Ouvrez un navigateur et tapez comme url :  ```localhost:[Port]```
+-> Ouvrez un navigateur et tapez comme url :  ```http://localhost:[Port]```
