@@ -1,9 +1,9 @@
 # SAE Docker 2.03
 
 ## Lancement lecteur vidéo personnel
-Vous trouverez ici le référentiel de l'application, à mettre dans un docker.
+Vous trouverez ici le référentiel de l'application pour la lancer dans docker.
 
-## Comment mettre l'application sur le docker, et lancer le serveur  ?
+## Comment démarrer l'application sous docker ?
 
 - Vérifiez si docker est installé :
 ```shell
@@ -24,7 +24,7 @@ docker build -t nom-image .
 
 - Lancez le serveur web :
 ```shell
-# Windows (Remplacer .... par votre dossier)
+# Windows (Remplacez .... par votre dossier)
 docker run -d -p [Port]:80 --env-file .env -v C:\....\data:/root/videoplayer/data/ nom-image
 # Linux
 docker run -d -p [Port]:80 --env-file .env -v ./data:/root/videoplayer/data/ nom-image
