@@ -3,7 +3,7 @@
 ## Présentation de Docker
 
 ### Qu'est-ce qu'un docker ?
-Un docker est une application compacté sous forme de conteneur, l'application sera appelée image. 
+Un docker est une application compactée sous forme de conteneur, l'application sera appelée image. 
 <br/> Ce conteneur permet d'utiliser cette application sur un serveur distant (ou local). 
 <br/> **Attention**, il ne peut y avoir qu'une seule image par conteneur. 
 
@@ -18,7 +18,7 @@ sous forme de site web.
 ## Présentation pages GitHub
 
 ### Création d'une page web GitHub
-Nous avons pour ce projet découvert la possbilité de créer des pages web GitHub, pour ce faire nous avons suivie à la lettre les instructions du [TP-5].(https://juanluck.github.io/Introduction-GIT/tp5/)
+Nous avons pour ce projet découvert la possibilité de créer des pages web GitHub, pour ce faire nous avons suivie à la lettre les instructions du [TP-5].(https://juanluck.github.io/Introduction-GIT/tp5/)
 
 Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons alimenté à l'aide du ReadMe.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages).
 
@@ -60,8 +60,8 @@ Comme dit précédemment, nous avons utilisé une librairie afin de faire foncti
 ![VideoJS](https://zupimages.net/up/22/21/dnjc.png)
 
 #### 3.3. Finalisation du site
-Nous avons finir par changer plein de petits détails, effectué des tests, avons vu que nous ne pouvions pas lire autre chose que des fichiers .mp4 dans notre lecteur. De plus, dès qu'on passe en résolution 4k, le lecteur subissait des bugs. 
-<br/> Nous n'avons pas su régler ces souci et avons préféré améliorer d'autres aspects du logiciel plutôt que de travailler sur la réparation de ces freezes. 
+Nous avons fini par changer plein de petits détails, effectué des tests, avons vu que nous ne pouvions pas lire autre chose que des fichiers .mp4 dans notre lecteur. De plus, dès qu'on passe en résolution 4k, le lecteur subissait des bugs. 
+<br/> Nous n'avons pas su régler ces soucis et avons préféré améliorer d'autres aspects du logiciel plutôt que de travailler sur la réparation de ces freezes. 
 
 
 ## Auteurs
