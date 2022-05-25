@@ -7,8 +7,8 @@ RUN apt update && \
     git clone https://github.com/KiwiTerra/VideoPlayer /root/videoplayer/ && \
     cd /root/videoplayer && npm install
 
-COPY .env /root/videoplayer/.env
-COPY start.sh /root/
+COPY ./.env /root/videoplayer/.env
+COPY ./start.sh /root/
 
 EXPOSE 80
 
