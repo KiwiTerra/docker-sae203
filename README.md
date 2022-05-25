@@ -17,6 +17,8 @@ docker --version
 git clone https://github.com/KiwiTerra/docker-sae203.git
 ```
 
+- Copiez `.env.example` dans `.env` et modifiez les valeurs de celui-ci
+
 - Construisez l'image décrite dans dockerfile avec docker build : 
 ```shell
 docker build -t nom-image .
