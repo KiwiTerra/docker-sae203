@@ -14,7 +14,7 @@ docker --version
 
 - Clonez le référentiel :
  ```shell
-git clone git@github.com/KiwiTerra/docker-sae203.git
+git clone https://github.com/KiwiTerra/docker-sae203.git
 ```
 
 - Construisez l'image décrite dans dockerfile avec docker build : 
