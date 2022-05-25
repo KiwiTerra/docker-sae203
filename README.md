@@ -17,7 +17,7 @@ Dockerfile est un outil proposé par Docker permettant de créer et de modifier 
 ## Présentation pages GitHub
 
 ### Création d'une page web GitHub
-Nous avons pour ce projet découvert la possibilité de créer des pages web GitHub, pour ce faire nous avons suivie à la lettre les instructions du [TP-5].(https://juanluck.github.io/Introduction-GIT/tp5/)
+Nous avons pour ce projet découvert la possibilité de créer des pages web GitHub, pour ce faire nous avons suivie à la lettre les instructions du [TP-5](https://juanluck.github.io/Introduction-GIT/tp5/)
 
 Nous avons utilisé le thème [Cayman](https://github.com/pages-themes/cayman), que nous avons alimenté à l'aide du README.md disponible sur la branche [gh-pages](https://github.com/KiwiTerra/docker-sae203/blob/gh-pages).
 
